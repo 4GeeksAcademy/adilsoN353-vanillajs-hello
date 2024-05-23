@@ -1,7 +1,38 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-button {
-  text-align: center;
-  margin: auto;
+body {
+  background-image: url("https://img.freepik.com/vector-gratis/patron-codigo-binario-sobre-fondo-azul-oscuro_53876-116183.jpg");
+  background-size: cover;
+
+  background-attachment: fixed;
+  color: white;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-fluid {
+  text-align: ;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+.btn {
+  background-color: red;
+  color: white;
   border: none;
-  text-shadow: 2px 2px 5px red;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: darkred;
 }
